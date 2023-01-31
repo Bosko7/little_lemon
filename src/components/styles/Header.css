@@ -14,6 +14,7 @@ header {
 .nav-menu {
     display: flex;
     align-items: center;
+    list-style-type: none;
 }
 
 .nav-menu li {
@@ -73,5 +74,6 @@ header {
         line-height: 0.8;
         display: initial;
         z-index: 11;
+        padding-right: 40px;
     }
 }

@@ -28,7 +28,7 @@ const Header = () => {
             </ul>
         </nav>
         <div className="hamburger" onClick = {handleClick}>
-            {click ? (<AiOutlineClose size={20} style={{ color: "#333333"}}/>) : (<AiOutlineMenu size={20} style={{ color: "#333333"}}/>)}  
+            {click ? (<AiOutlineClose size={50} style={{ color: "#333333"}}/>) : (<AiOutlineMenu size={50} style={{ color: "#333333"}}/>)}  
         </div>
       </header>
     </>

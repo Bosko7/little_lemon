@@ -69,13 +69,14 @@
 
 @media screen and (max-width: 1024px) {
     .hero-section-background {
-        padding-top: 10vh;
+        padding-top: 3vh;
     }
 
     .image-box {
-        right: 0;
+        right: 40px;
         width: 300px;
         height: 370px;
+        
     }
 
     .hero-section-container {
@@ -101,7 +102,7 @@
     }
 
     .image-box {
-        width: 100%;
+        width: 90%;
         height: 250px;
         position: initial
     }
@@ -114,7 +115,7 @@
     .section-right {
         position: initial;
         margin-top: 30px;
-        margin-bottom: -100px;
+        margin-bottom: -60px;
         width: 100%;
     }
 
