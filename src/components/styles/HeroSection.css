@@ -47,7 +47,7 @@
 }
 
 .section-right {
-    width: 400px;
+    width: 380px;
     position: relative;
 }
 
@@ -55,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 380px;
     border-radius: 10px;
     position: absolute;
     overflow:hidden;

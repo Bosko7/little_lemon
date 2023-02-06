@@ -51,7 +51,8 @@
 
 @media screen and (max-width: 1040px) {
     .special-card {
-        grid-template-columns: 47% 47%;
+        grid-template-columns: 45% 45%;
+        width: 96%;
     }
 }
 
@@ -59,6 +60,7 @@
     .special-card {
         display: flex;
         flex-direction: column;
+        width: 90%;
     }
 
     .special-card-text p, h3 {
