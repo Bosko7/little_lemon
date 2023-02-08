@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 
 import Home from "./routes/Home";
+import Bookings from './routes/Bookings';
 import NoPage from "./components/NoPage";
+import Confirmation from "./components/Confirmation";
 /*
 import About from "./routes/About";
 import Login from "./routes/Login";
@@ -27,12 +29,14 @@ function App() {
       {/* posto ima "/", ovo se renderuje po difoltu   */}
       <Route path = "/" element = {<Home />}/>
       <Route path="*" element={<NoPage />} />
+      <Route path = "/bookings" element = {<Bookings />}/>
+      <Route path="/confirmation" element= {<Confirmation />} />
       {/*
       <Route path = "/about" element = {<About />}/>
       <Route path = "/login" element = {<Login />}/>
       <Route path = "/menu" element = {<Menu />}/>
       <Route path = "/order-online" element = {<OrderOnline />}/>
-      <Route path = "/reservations" element = {<Reservations />}/>
+      
       */}
     </Routes>
     </BrowserRouter>
